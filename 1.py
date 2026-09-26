@@ -1,5 +1,5 @@
-n = 10
-i = 0
-while i < 11:
-    print(i)
-    i += 1
+a = input("Enter any number")
+sum = 0
+for i in a:
+    sum += int(i)
+print(sum)
