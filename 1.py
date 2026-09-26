@@ -1,5 +1,4 @@
-a = input("Enter any number")
-sum = 0
-for i in a:
-    sum += int(i)
-print(sum)
+n = 1221
+n_2 = str(n)
+
+print("True" if (n_2 == n_2[::-1]) else "False")
